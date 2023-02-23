@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        header{
+            background-color: #333;
+            padding: 10px ;
+        }
+        h1{
+            text-align: center;
+            color: #fff;
+        }
+        #container{
+            height: 60vh;
+            background-color: rgba(185, 181, 181, 0.513);
+            
+            display: flex;
+            justify-content: space-around;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .name_container{
+            display: flex;
+        }
+        .contact{
+            display: inline-block;
+            padding: 10px;
+        }
+        .name{
+            display: inline-block;
+            padding: 10px;
+        }
+        li{
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        li span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Student Bio </h1>
+    </header>
+
+    <main>
+       <section id="container">
+           <div class="name">
+              <p style="margin-bottom: 10px;">Your Name</p>
+              <div class="name_container">
+                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2960&q=80" alt="">
+                <p style="padding-left: 10px;max-width: 274px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, ad!</p>
+              </div>
+           </div>
+
+           <div class="contact">
+            <span style="font-weight: 700;margin-bottom: 10px;display: inline-block;">Contact info</span>
+             <ul>
+                <li>Email: <span>abisovfarid14@gmail.com</span></li>
+                <li>Github: <span>sample.Name</span> </li>
+                <li>Portfolio: <span>coming soon</span></li>
+             </ul>
+           </div>
+       </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
